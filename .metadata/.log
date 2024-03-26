@@ -286,3 +286,240 @@ Binding(CTRL+SHIFT+H,
 
 !ENTRY org.eclipse.core.jobs 2 2 2024-03-26 12:45:14.773
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob$ProgressUpdateJob
+!SESSION 2024-03-26 14:20:23.382 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8350c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8350c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d2a8e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d2a8e5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4e6e81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4e6e81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@138f822,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@138f822,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12aaffe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@12aaffe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1887132,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1887132,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bfac41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bfac41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c5f96e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c5f96e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-26 14:20:41.642
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7ac88b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7ac88b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.crt.log 1 0 2024-03-26 15:26:37.935
+!MESSAGE Drivers loaded in 1262 milliseconds
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-26 15:59:44.851
+!MESSAGE Indexed 'UART_HC6' (0 sources, 0 headers) in 0,00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00 %)
+
+!ENTRY org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Selection-Statements.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Function-Bodies.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Code-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gcc/TMS320C3x_002fC4x-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/GIMPLE-Example.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gcc/Protoize-Caveats.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/cpp/Assertions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gcc/MT-Options.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Interfaces.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Tree_002dSSA-passes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/as.html/LNS-directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Mode-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gcc/Running-Protoize.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/GIMPLE-Expressions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/as.html/BFIN_002dDependent.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/as.html/BFIN-Directives.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/cpp/Obsolete-once_002donly-headers.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Loops.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Scopes.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/as.html/BFIN-Syntax.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Defining-Mode-Macros.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/binutils.html/Selecting-The-Target-System.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Rough-GIMPLE-Grammar.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gcc/PowerPC-AltiVec-Built_002din-Functions.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Statement-Operands.html cannot be opened.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2024-03-26 17:14:37.840
+!MESSAGE Help document /com.crt.docs/doc/Gnu-1q12/gccint/Trees.html cannot be opened.
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-03-26 17:58:41.542
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob$ProgressUpdateJob

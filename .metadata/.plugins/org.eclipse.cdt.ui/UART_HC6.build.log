@@ -1,0 +1,21 @@
+17:30:59 **** Incremental Build of configuration Debug for project UART_HC6 ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -DCORE_M3 -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__LPC17XX__ -I"C:\LPC1769\LPC1769\UART_HC6\inc" -I"C:\LPC1769\LPC1769\CMSISv2_LPC17xx\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: UART_HC6.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug" -Xlinker -Map="UART_HC6.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "UART_HC6_Debug.ld" -o "UART_HC6.axf"  ./src/cr_startup_lpc175x_6x.o ./src/crp.o ./src/leds.o ./src/main.o ./src/timer.o ./src/timer_irq.o ./src/uart.o   -lCMSISv2_LPC17xx
+Finished building target: UART_HC6.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "UART_HC6.axf"; # arm-none-eabi-objcopy -O binary "UART_HC6.axf" "UART_HC6.bin" ; checksum -p LPC1769 -d "UART_HC6.bin";
+   text	   data	    bss	    dec	    hex	filename
+   4328	      8	    160	   4496	   1190	UART_HC6.axf
+ 
+
+17:31:00 Build Finished (took 429ms)
+
