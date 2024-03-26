@@ -1,0 +1,41 @@
+12:36:54 **** Build of configuration Debug for project LPCX176x_cmsis2_EasyWeb ****
+make all 
+Building file: ../src/cr_startup_lpc176x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -DCR_INTEGER_PRINTF -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__CODE_RED -D__REDLIB__ -D__LPCXPRESSO__ -I"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\inc" -O0 -Os -g3 -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/cr_startup_lpc176x.d" -MT"src/cr_startup_lpc176x.d" -o"src/cr_startup_lpc176x.o" "../src/cr_startup_lpc176x.c"
+Finished building: ../src/cr_startup_lpc176x.c
+ 
+Building file: ../src/easyweb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -DCR_INTEGER_PRINTF -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__CODE_RED -D__REDLIB__ -D__LPCXPRESSO__ -I"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\inc" -O0 -g3 -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/easyweb.d" -MT"src/easyweb.d" -o"src/easyweb.o" "../src/easyweb.c"
+Finished building: ../src/easyweb.c
+ 
+Building file: ../src/ethmac.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -DCR_INTEGER_PRINTF -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__CODE_RED -D__REDLIB__ -D__LPCXPRESSO__ -I"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\inc" -O0 -g3 -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/ethmac.d" -MT"src/ethmac.d" -o"src/ethmac.o" "../src/ethmac.c"
+Finished building: ../src/ethmac.c
+ 
+Building file: ../src/ew_systick.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -DCR_INTEGER_PRINTF -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__CODE_RED -D__REDLIB__ -D__LPCXPRESSO__ -I"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\inc" -O0 -g3 -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/ew_systick.d" -MT"src/ew_systick.d" -o"src/ew_systick.o" "../src/ew_systick.c"
+Finished building: ../src/ew_systick.c
+ 
+Building file: ../src/tcpip.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -DCR_INTEGER_PRINTF -D__USE_CMSIS=CMSISv2p00_LPC17xx -D__CODE_RED -D__REDLIB__ -D__LPCXPRESSO__ -I"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\inc" -O0 -g3 -c -fmessage-length=0 -fno-builtin -ffunction-sections -mcpu=cortex-m3 -mthumb -MMD -MP -MF"src/tcpip.d" -MT"src/tcpip.d" -o"src/tcpip.o" "../src/tcpip.c"
+Finished building: ../src/tcpip.c
+ 
+Building target: LPCX176x_cmsis2_EasyWeb.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\LPC1769\LPC1769\CMSISv2p00_LPC17xx\Debug" -Xlinker -Map=LPCX176x_cmsis2_EasyWeb.map -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "LPCXpresso176x_EasyWeb_Debug.ld" -o "LPCX176x_cmsis2_EasyWeb.axf"  ./src/cr_startup_lpc176x.o ./src/easyweb.o ./src/ethmac.o ./src/ew_systick.o ./src/tcpip.o   -lCMSISv2p00_LPC17xx
+Finished building target: LPCX176x_cmsis2_EasyWeb.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size LPCX176x_cmsis2_EasyWeb.axf; arm-none-eabi-objcopy -O binary LPCX176x_cmsis2_EasyWeb.axf LPCX176x_cmsis2_EasyWeb.bin ; checksum -p LPC1768 -d LPCX176x_cmsis2_EasyWeb.bin;
+   text	   data	    bss	    dec	    hex	filename
+  19076	      8	   1348	  20432	   4fd0	LPCX176x_cmsis2_EasyWeb.axf
+Created checksum 0xefff79fa at offset 0x1c in file LPCX176x_cmsis2_EasyWeb.bin 
+
+12:36:56 Build Finished (took 1s.350ms)
+
