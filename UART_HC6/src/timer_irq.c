@@ -31,6 +31,8 @@
 #include "leds.h"
 #include "timer.h"
 
+volatile uint32_t msTicks; // counter for 1ms SysTicks
+
 void TIMER0_IRQHandler (void)
 {
   LPC_TIM0->IR = 1;			/* clear interrupt flag */
@@ -61,3 +63,21 @@ void TIMER3_IRQHandler (void)
   led2_invert();
   return;
 }
+
+
+// ****************
+//  SysTick_Handler - just increment SysTick counter
+void SysTick_Handler(void) {
+  msTicks++;
+}
+
+// ****************
+// systick_delay - creates a delay of the appropriate number of Systicks (happens every 1 ms)
+__INLINE static void systick_delay (uint32_t delayTicks) {
+  uint32_t currentTicks;
+
+  currentTicks = msTicks;	// read current tick counter
+  // Now loop until required number of ticks passes.
+  while ((msTicks - currentTicks) < delayTicks);
+}
+

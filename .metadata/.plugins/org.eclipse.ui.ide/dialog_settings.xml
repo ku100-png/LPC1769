@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.crt.lpcxpresso.feature:6.1.4.201401140032"/>
+		<item value="com.crt.lpcxpresso.feature:6.1.2.201311280841"/>
 		<item value="org.eclipse.cdt.gdb:7.0.0.201302132326"/>
 		<item value="org.eclipse.cdt:8.1.2.201302132326"/>
 		<item value="org.eclipse.cvs:1.3.201.v20130116-085741-7B79FJKAkF7BG7ODH5CAJT"/>

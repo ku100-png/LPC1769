@@ -28,6 +28,8 @@ extern volatile uint8_t UART0Buffer[BUFSIZE];
 extern volatile uint32_t UART1Count;
 extern volatile uint8_t UART1Buffer[BUFSIZE];
 
+extern volatile uint32_t msTicks; // counter for 1ms SysTicks
+
 int main(void) {
 
     // TODO: insert code here
@@ -38,8 +40,13 @@ int main(void) {
 	  UARTInit(0, 9600);	/* baud rate setting */
 	  UARTInit(1, 9600);	/* baud rate setting */
 
+	  // Setup SysTick Timer to interrupt at 1 msec intervals
+	  if (SysTick_Config(SystemFrequency / 1000)) {
+		  while (1);  // Capture error
+	  }
+
     // Start Timer0
-	  enable_timer(0);
+	//  enable_timer(0);
 
     // Enter an infinite loop, just incrementing a counter
     while(1)
@@ -59,6 +66,11 @@ int main(void) {
 			 UART1Count = 0;
 			 LPC_UART1->IER = IER_THRE | IER_RLS | IER_RBR;	/* Re-enable RBR */
 		}
+
+		if(msTicks%2000 == 0){
+			led2_invert();
+		}
+
     }
 
     return 0 ;
