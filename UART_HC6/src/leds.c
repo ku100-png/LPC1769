@@ -66,3 +66,31 @@ void led2_invert (void)
 	LPC_GPIO0->FIOSET = ((~ledstate) & (1 << 22));
 }
 
+
+//---------------------------------------------------------------
+
+// Function for Solenoid
+void solenoid_init (void)
+{
+	// Set P0_21 to 00 - GPIO
+	LPC_PINCON->PINSEL1	&= (~(3 << 10));
+	// Set GPIO - P0_21 - to be output
+	LPC_GPIO0->FIODIR |= (1 << 21);
+}
+
+// Function to turn Solenoid on
+void solenoid_on (void)
+{
+	LPC_GPIO0->FIOSET = (1 << 21);
+}
+
+// Function to turn Solenoid off
+void solenoid_off (void)
+{
+	LPC_GPIO0->FIOCLR = (1 << 21);
+}
+
+
+//-------------------EOF---------------------------
+
+

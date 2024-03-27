@@ -33,4 +33,8 @@ void led2_on (void);
 void led2_off (void);
 void led2_invert (void);
 
+void solenoid_init(void);
+void solenoid_on (void);
+void solenoid_off (void);
+
 #endif /*LEDS_H_*/

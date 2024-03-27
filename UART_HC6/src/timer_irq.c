@@ -33,6 +33,11 @@
 
 volatile uint32_t msTicks; // counter for 1ms SysTicks
 
+extern uint8_t fl_start_T1;
+extern uint8_t fl_start_T2;
+extern uint32_t Time_ms;
+static uint32_t timetick = 0;
+
 void TIMER0_IRQHandler (void)
 {
   LPC_TIM0->IR = 1;			/* clear interrupt flag */
@@ -69,6 +74,18 @@ void TIMER3_IRQHandler (void)
 //  SysTick_Handler - just increment SysTick counter
 void SysTick_Handler(void) {
   msTicks++;
+
+  if(fl_start_T1||fl_start_T2){
+	  led2_on();
+	  solenoid_on();
+	  if(timetick++ >= Time_ms){
+		  fl_start_T1 = 0;
+		  fl_start_T2 = 0;
+		  timetick = 0;
+		  led2_off();
+		  solenoid_off();
+	  }
+  }
 }
 
 // ****************
