@@ -3,8 +3,8 @@
  * (c) Code Red Technologies Ltd, 2008-2024
  * (c) NXP Semiconductors 2013-2024
  * Generated linker script file for LPC1769
- * Created from generic_c.ld (LPCXpresso v6.1 (4 [Build 194] [2014-01-15] ))
- * By LPCXpresso v6.1.4 [Build 194] [2014-01-15]  on Tue Mar 26 12:38:32 MSK 2024
+ * Created from generic_c.ld (LPCXpresso v6.1 (2 [Build 177] [2013-11-28] ))
+ * By LPCXpresso v6.1.2 [Build 177] [2013-11-28]  on Wed Apr 10 19:47:15 MSK 2024
  */
 
 

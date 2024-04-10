@@ -2,6 +2,9 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.lib.debug.476180645;com.crt.advproject.config.lib.debug.476180645.;com.crt.advproject.gcc.lib.debug.1253795442;com.crt.advproject.compiler.input.1619818617">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
@@ -322,6 +325,9 @@
 </instance>
 <instance id="com.crt.advproject.config.lib.debug.476180645;com.crt.advproject.config.lib.debug.476180645.;com.crt.advproject.gas.lib.debug.1221856873;com.crt.advproject.assembler.input.1433807015">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>

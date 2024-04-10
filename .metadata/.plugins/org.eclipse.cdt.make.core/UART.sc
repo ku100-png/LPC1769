@@ -2,9 +2,9 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="com.crt.advproject.config.exe.debug.9815139;com.crt.advproject.config.exe.debug.9815139.;com.crt.advproject.gcc.exe.debug.1574033099;com.crt.advproject.compiler.input.51652402">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -322,9 +322,9 @@
 </instance>
 <instance id="com.crt.advproject.config.exe.debug.9815139;com.crt.advproject.config.exe.debug.9815139.;com.crt.advproject.gas.exe.debug.940939968;com.crt.advproject.assembler.input.515992691">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
-<includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -1282,6 +1282,9 @@
 </instance>
 <instance id="com.crt.advproject.config.exe.debug.9815139;com.crt.advproject.config.exe.debug.9815139.src/cr_startup_lpc176x.c;com.crt.advproject.gcc.exe.debug.1574033099.577749542;com.crt.advproject.compiler.input.888152255">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
+<includePath path="c:\nxp\lpcxpresso_6.1.2_177\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/include-fixed"/>
 <includePath path="c:\nxp\lpcxpresso_6.1.4_194\lpcxpresso\tools\bin\../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/include"/>
