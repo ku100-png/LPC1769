@@ -1,8 +1,8 @@
 Archive member included because of file (symbol)
 
-C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
                               ./src/main.o (SystemFrequency)
-c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
                               ./src/cr_startup_lpc175x_6x.o (__main)
 
 Allocating common symbols
@@ -47,11 +47,11 @@ Discarded input sections
  .text          0x00000000        0x0 ./src/uart.o
  .data          0x00000000        0x0 ./src/uart.o
  .bss           0x00000000        0x0 ./src/uart.o
- .text          0x00000000        0x0 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
- .bss           0x00000000        0x0 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
- .text          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
- .data          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
- .bss           0x00000000        0x0 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
 Memory Configuration
 
@@ -70,10 +70,10 @@ LOAD ./src/main.o
 LOAD ./src/timer.o
 LOAD ./src/timer_irq.o
 LOAD ./src/uart.o
-LOAD C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a
+LOAD C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a
 START GROUP
-LOAD c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
-LOAD c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a
+LOAD c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a
 END GROUP
                 0x00080000                __top_MFlash512 = 0x80000
                 0x10008000                __top_RamLoc32 = 0x10008000
@@ -216,13 +216,13 @@ END GROUP
                 0x00001114       0xb0 ./src/uart.o
                 0x00001114                UARTSend
  .text.SystemInit
-                0x000011c4      0x1e4 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x000011c4      0x1e4 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
                 0x000011c4                SystemInit
  .text.SystemClockUpdate
-                0x000013a8      0x224 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x000013a8      0x224 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
                 0x000013a8                SystemClockUpdate
  .text.__weak_main
-                0x000015cc        0x4 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x000015cc        0x4 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
                 0x000015cc                __weak_main
                 0x000015cc                __main
  *(.rodata .rodata.* .constdata .constdata.*)
@@ -273,7 +273,7 @@ END GROUP
                 0x10000001        0x1 ./src/uart.o
                 0x10000001                UART1TxEmpty
  *fill*         0x10000002        0x2 00
- .data          0x10000004        0x4 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .data          0x10000004        0x4 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
                 0x10000004                SystemFrequency
                 0x10000008                . = ALIGN (0x4)
                 0x10000008                _edata = .
@@ -346,7 +346,7 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_info    0x0000122b      0x584 ./src/timer.o
  .debug_info    0x000017af      0x314 ./src/timer_irq.o
  .debug_info    0x00001ac3      0xc93 ./src/uart.o
- .debug_info    0x00002756      0x388 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00002756      0x388 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
 .debug_abbrev   0x00000000      0x8c2
  .debug_abbrev  0x00000000      0x120 ./src/cr_startup_lpc175x_6x.o
@@ -356,7 +356,7 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_abbrev  0x000003e9      0x15a ./src/timer.o
  .debug_abbrev  0x00000543       0xd9 ./src/timer_irq.o
  .debug_abbrev  0x0000061c      0x1c3 ./src/uart.o
- .debug_abbrev  0x000007df       0xe3 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x000007df       0xe3 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
 .debug_loc      0x00000000      0x64e
  .debug_loc     0x00000000      0x102 ./src/cr_startup_lpc175x_6x.o
@@ -365,7 +365,7 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_loc     0x000002de      0x118 ./src/timer.o
  .debug_loc     0x000003f6       0xdc ./src/timer_irq.o
  .debug_loc     0x000004d2      0x118 ./src/uart.o
- .debug_loc     0x000005ea       0x64 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_loc     0x000005ea       0x64 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
 .debug_aranges  0x00000000      0x1e8
  .debug_aranges
@@ -381,7 +381,7 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_aranges
                 0x00000180       0x40 ./src/uart.o
  .debug_aranges
-                0x000001c0       0x28 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x000001c0       0x28 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
 .debug_ranges   0x00000000      0x178
  .debug_ranges  0x00000000       0x70 ./src/cr_startup_lpc175x_6x.o
@@ -390,17 +390,17 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_ranges  0x000000d0       0x30 ./src/timer.o
  .debug_ranges  0x00000100       0x30 ./src/timer_irq.o
  .debug_ranges  0x00000130       0x30 ./src/uart.o
- .debug_ranges  0x00000160       0x18 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x00000160       0x18 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x00000000     0x19fe
+.debug_line     0x00000000     0x1a62
  .debug_line    0x00000000       0xae ./src/cr_startup_lpc175x_6x.o
  .debug_line    0x000000ae       0xac ./src/crp.o
- .debug_line    0x0000015a      0x3fc ./src/leds.o
- .debug_line    0x00000556      0x443 ./src/main.o
- .debug_line    0x00000999      0x412 ./src/timer.o
- .debug_line    0x00000dab      0x3fe ./src/timer_irq.o
- .debug_line    0x000011a9      0x46c ./src/uart.o
- .debug_line    0x00001615      0x3e9 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x0000015a      0x42e ./src/leds.o
+ .debug_line    0x00000588      0x475 ./src/main.o
+ .debug_line    0x000009fd      0x412 ./src/timer.o
+ .debug_line    0x00000e0f      0x3fe ./src/timer_irq.o
+ .debug_line    0x0000120d      0x46c ./src/uart.o
+ .debug_line    0x00001679      0x3e9 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
 .debug_macinfo  0x00000000    0x248a3
  .debug_macinfo
@@ -418,24 +418,24 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_macinfo
                 0x00019d24     0x555d ./src/uart.o
  .debug_macinfo
-                0x0001f281     0x5622 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x0001f281     0x5622 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
 
-.debug_str      0x00000000      0xc2a
+.debug_str      0x00000000      0xc65
  .debug_str     0x00000000      0x1e5 ./src/cr_startup_lpc175x_6x.o
                                 0x1f8 (size before relaxing)
  .debug_str     0x000001e5       0x16 ./src/crp.o
                                  0x8e (size before relaxing)
- .debug_str     0x000001fb      0x317 ./src/leds.o
-                                0x3a4 (size before relaxing)
- .debug_str     0x00000512      0x3bb ./src/main.o
-                                0x4cd (size before relaxing)
- .debug_str     0x000008cd       0xc0 ./src/timer.o
+ .debug_str     0x000001fb      0x352 ./src/leds.o
+                                0x3bd (size before relaxing)
+ .debug_str     0x0000054d      0x3bb ./src/main.o
+                                0x4e6 (size before relaxing)
+ .debug_str     0x00000908       0xc0 ./src/timer.o
                                 0x422 (size before relaxing)
- .debug_str     0x0000098d       0x64 ./src/timer_irq.o
+ .debug_str     0x000009c8       0x64 ./src/timer_irq.o
                                 0x1f6 (size before relaxing)
- .debug_str     0x000009f1      0x1d6 ./src/uart.o
+ .debug_str     0x00000a2c      0x1d6 ./src/uart.o
                                 0x6d0 (size before relaxing)
- .debug_str     0x00000bc7       0x63 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_str     0x00000c02       0x63 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
                                 0x288 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -447,8 +447,8 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .comment       0x00000000       0x71 ./src/timer.o
  .comment       0x00000000       0x71 ./src/timer_irq.o
  .comment       0x00000000       0x71 ./src/uart.o
- .comment       0x00000000       0x71 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
- .comment       0x00000000       0x71 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+ .comment       0x00000000       0x71 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
 .ARM.attributes
                 0x00000000       0x33
@@ -467,9 +467,9 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .ARM.attributes
                 0x00000132       0x33 ./src/uart.o
  .ARM.attributes
-                0x00000165       0x33 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+                0x00000165       0x33 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
-                0x00000198       0x33 c:/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
+                0x00000198       0x33 c:/nxp/lpcxpresso_6.1.2_177/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__weak__main.o)
 
 .debug_frame    0x00000000      0x438
  .debug_frame   0x00000000       0xf4 ./src/cr_startup_lpc175x_6x.o
@@ -478,4 +478,4 @@ OUTPUT(UART_HC6.axf elf32-littlearm)
  .debug_frame   0x00000218       0xa0 ./src/timer.o
  .debug_frame   0x000002b8       0x9c ./src/timer_irq.o
  .debug_frame   0x00000354       0xa0 ./src/uart.o
- .debug_frame   0x000003f4       0x44 C:\LPC1769\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x000003f4       0x44 C:\Users\Anonymous\Documents\GitHub\LPC1769\CMSISv2_LPC17xx\Debug\libCMSISv2_LPC17xx.a(system_LPC17xx.o)
